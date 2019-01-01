@@ -15,7 +15,7 @@ namespace FoodTruck1.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult login()
         {
             ViewData["Message"] = "Your application description page.";
 
