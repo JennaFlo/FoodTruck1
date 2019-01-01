@@ -22,7 +22,7 @@ namespace FoodTruck1.Controllers
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult Create Login()
         {
             ViewData["Message"] = "Your contact page.";
 
