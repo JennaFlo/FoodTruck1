@@ -5,6 +5,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using FoodTruck1.Models;
+using FoodTruck1.ViewModels;
+using Microsoft.EntityFrameworkCore;
+
+
 
 namespace FoodTruck1.Controllers
 {
@@ -22,7 +26,7 @@ namespace FoodTruck1.Controllers
             return View();
         }
 
-        public IActionResult Create Login()
+        public IActionResult CreateLogin()
         {
             ViewData["Message"] = "Your contact page.";
 
